@@ -1,0 +1,14 @@
+<h1>URL shortener</h1>
+<p>Hello there {{name}}</p>
+
+<form action="/your-url" method="POST">
+    <label for="url">Original URL</label>
+    <input type="url" name="url" value="" required>
+
+    <br>
+    <label for="code">New URL</label>
+    <input type="text" name="code" value="" required>
+
+    <br>
+    <input type="submit" value="Shorten">
+</form>
